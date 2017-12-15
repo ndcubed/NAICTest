@@ -1,0 +1,26 @@
+/*
+ * Copyright 2017. National Association of Insurance Commissioners.
+ */
+
+public class MCP {
+
+	public static void main(String[] args) {
+
+		String test = "test";
+
+		// The phrase "You have no args" should display on the console
+		if (args.length == 0){
+			System.out.println("You have no args");
+		}
+
+		// The phrase "they are equal" should display on the console
+		if (test.equals("test")){
+			System.out.println("they are equal");
+		}
+
+		// 0 through 9 should display on the console
+		for (int i = 0; i<10; i++){
+			System.out.println(i);
+		}
+	}
+}
